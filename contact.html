@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | Tara Zolman</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-container">
+        <a class="brand" href="index.html">Tara Zolman</a>
+        <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="clients.html">Clients</a>
+          <a href="contact.html" class="cta active">Work With Me</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="content-section">
+        <div class="container narrow">
+          <h1 class="page-title">Let’s create something authentic</h1>
+          <p class="muted">Reach out to start a collaboration!</p>
+
+          <form class="contact-form reveal" id="contactForm">
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required placeholder="Your name" />
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="you@example.com" />
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project or brand…"></textarea>
+            </div>
+            <button type="submit" class="button primary">Send</button>
+            <a href="mailto:hello@tarazolman.com" class="button ghost">Email me</a>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Tara Zolman · Wellness & Lifestyle UGC</p>
+        <p><a href="mailto:hello@tarazolman.com" class="link">hello@tarazolman.com</a></p>
+      </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

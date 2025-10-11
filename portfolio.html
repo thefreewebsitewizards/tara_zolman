@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio | Tara Zolman</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-container">
+        <a class="brand" href="index.html">Tara Zolman</a>
+        <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="portfolio.html" class="active">Portfolio</a>
+          <a href="clients.html">Clients</a>
+          <a href="contact.html" class="cta">Work With Me</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="content-section">
+        <div class="container narrow">
+          <h1 class="page-title">Portfolio</h1>
+
+          <div class="video-embed reveal">
+            <h2>Featured Videos</h2>
+            <p class="muted">Click to browse UGC videos directly from Google Drive.</p>
+            <div class="responsive-iframe">
+              <iframe src="https://drive.google.com/embeddedfolderview?id=1JPs10IvtRkDp0333K0_1bbyeGB0ZxxLV#grid" frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="captions-grid">
+              <span class="caption-pill">Brand Demo</span>
+              <span class="caption-pill">TikTok-Style Ad</span>
+              <span class="caption-pill">Wellness Tutorial</span>
+              <span class="caption-pill">Product Unboxing</span>
+            </div>
+          </div>
+
+          <div class="gallery reveal">
+            <h2>Content in Action</h2>
+            <div class="grid gallery-grid">
+              <figure>
+                <img src="images/1.jpg" alt="Lifestyle content 1" />
+              </figure>
+              <figure>
+                <img src="images/2.jpg" alt="Lifestyle content 2" />
+              </figure>
+              <figure>
+                <img src="images/3.jpg" alt="Lifestyle content 3" />
+              </figure>
+              <figure>
+                <img src="images/5.jpg" alt="Lifestyle content 5" />
+              </figure>
+              <figure>
+                <img src="images/6.jpg" alt="Lifestyle content 6" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Tara Zolman · Wellness & Lifestyle UGC</p>
+        <p><a href="mailto:hello@tarazolman.com" class="link">hello@tarazolman.com</a></p>
+      </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
